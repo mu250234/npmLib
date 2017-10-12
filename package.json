@@ -5,8 +5,15 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "prepush-msg": "echo 'Pre-push checks...' && exit 0",
+    "gitPush": "git commit -m 'dist'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "pre-push": [
+    "prepush-msg",
+    "build",
+    "gitPush"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mu250234/npmLib.git"
