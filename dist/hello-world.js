@@ -7,7 +7,7 @@ var HelloWorldEx;
     }
     HelloWorldEx.sayHello = sayHello;
     function sayGoodbye() {
-        console.log('goodbye03');
+        console.log('goodbye04');
     }
     HelloWorldEx.sayGoodbye = sayGoodbye;
 })(HelloWorldEx = exports.HelloWorldEx || (exports.HelloWorldEx = {}));
