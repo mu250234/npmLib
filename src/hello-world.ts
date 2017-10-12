@@ -4,6 +4,6 @@ export namespace HelloWorldEx {
     console.log('hi helloworld just starting..')
   }
   export function sayGoodbye() {
-    console.log('goodbye77')
+    console.log('goodbye88')
   }
 }
