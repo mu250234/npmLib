@@ -20,6 +20,9 @@
   },
   "types": "dist/index.d.ts",
   "devDependencies": {
+    "install": "^0.10.1",
+    "npm": "^5.4.2",
+    "pre-push": "^0.1.1",
     "typescript": "^2.5.2"
   },
   "bugs": {
